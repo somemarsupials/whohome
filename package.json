@@ -4,7 +4,8 @@
   "description": "Who's home?",
   "main": "server.js",
   "scripts": {
-    "test": "mocha test/**/*Test.js"
+    "test": "mocha test/**/*Test.js",
+    "dev": "nodemon server.js"
   },
   "repository": {
     "type": "git",
